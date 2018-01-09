@@ -1,16 +1,15 @@
 ﻿'use strict';
-var express = require('express');
-var path = require('path');
-var logger = require('morgan');
-var bodyParser = require('body-parser');
 
-var app = express();
+const app = require('express')(),
+	logger = require('morgan'),
+	bodyParser = require('body-parser'),
+	routes = require('./api');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(routes);
 
-app.use('/', require('./routes/index'));
-app.use('/users', require('./routes/users'));
-
-app.listen(3000);
+const server = app.listen(3000, 
+	() => console.info(`Server starts on port ${server.address().port}`)
+);
