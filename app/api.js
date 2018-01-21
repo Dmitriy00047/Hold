@@ -1,7 +1,7 @@
 'use strict';
 
 const router = require('express').Router(),
-    user = require('../controllers/user');
+    user = require('./controllers/user');
 
 router.route('/user')
     .get(user.get)

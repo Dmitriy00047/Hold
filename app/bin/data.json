@@ -1,0 +1,56 @@
+[
+    {
+        "uuid": 1,
+        "name": "Petro",
+        "record": 0,
+        "results": [],
+        "settings": {}
+    },
+    {
+        "uuid": 2,
+        "name": "Griha",
+        "record": 12,
+        "results": [
+            12,
+            4
+        ],
+        "settings": {}
+    },
+    {
+        "uuid": 3,
+        "name": "Nikolya",
+        "record": 123,
+        "results": [
+            123,
+            4,
+            122
+        ],
+        "settings": {
+            "vibrate": true,
+            "sound": false
+        }
+    },
+    {
+        "uuid": 4,
+        "name": "Griha",
+        "record": 13,
+        "results": [
+            13,
+            4
+        ],
+        "settings": {}
+    },
+    {
+        "uuid": 5,
+        "name": "Urec",
+        "record": 13,
+        "results": [
+            13,
+            4,
+            5
+        ],
+        "settings": {
+            "vibrate": true
+        }
+    }
+]
