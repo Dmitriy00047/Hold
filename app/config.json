@@ -1,9 +1,9 @@
 {
     "server": {
-        "port": 3000
+        "port": 8080
     },
     "db": {
-        "url": "mongodb://localhost:27017",
+        "url": "mongodb://db:27017",
         "name": "hold"
     }
 }
