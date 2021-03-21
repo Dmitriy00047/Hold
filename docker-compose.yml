@@ -2,14 +2,18 @@ version: '3'
 services:
   web:
     build: .
+    volumes:
+      - ./app:/server/app:ro
     depends_on:
-        - db
+      - db
     ports:
       - "8080:8080"
   db:
     image: "mongo"
+    volumes:
+      - ./data/.db:/data/db:rw
     ports:
-        - 27017:27017
+      - 27017:27017
   compass:
     image: "mongo-express"
     depends_on:
@@ -18,4 +22,3 @@ services:
       - ME_CONFIG_MONGODB_SERVER=db
     ports:
       - 8081:8081
-
