@@ -12,8 +12,6 @@ RUN npm install
 # Если вы создаете сборку для продакшн
 # RUN npm ci --only=production
 
-RUN node app/bin/setup.js
-
-
 EXPOSE 8080
-CMD [ "node", "app/bin/start.js" ]
+
+CMD [ "npm", "start" ]

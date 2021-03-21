@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app/app"
+    "start": "node app/bin/start.js"
   },
   "description": "HoldExpress",
   "author": {
-    "name": "dimak"
+    "name": "egoortus"
   },
   "dependencies": {
     "body-parser": "^1.15.0",

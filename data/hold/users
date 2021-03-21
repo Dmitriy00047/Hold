@@ -1,0 +1,5 @@
+{"_id":{"$oid":"6057794a7c98a00021ce6f37"},"uuid":1,"name":"Petro","record":0,"results":[],"settings":{}}
+{"_id":{"$oid":"6057794a7c98a00021ce6f38"},"uuid":2,"name":"Griha","record":12,"results":[12,4],"settings":{}}
+{"_id":{"$oid":"6057794a7c98a00021ce6f39"},"uuid":3,"name":"Nikolya","record":123,"results":[123,4,122],"settings":{"vibrate":true,"sound":false}}
+{"_id":{"$oid":"6057794a7c98a00021ce6f3a"},"uuid":4,"name":"Griha","record":13,"results":[13,4],"settings":{}}
+{"_id":{"$oid":"6057794a7c98a00021ce6f3b"},"uuid":5,"name":"Urec","record":13,"results":[13,4,5],"settings":{"vibrate":true}}
